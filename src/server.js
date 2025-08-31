@@ -83,3 +83,5 @@ const postRoutes = require('./routes/postRoutes');
 
 // After mounting authRoutes
 app.use('/api/posts', postRoutes);
+const postRoutes = require('./routes/postRoutes');
+app.use('/api/posts', postRoutes);
